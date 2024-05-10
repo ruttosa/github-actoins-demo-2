@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   deploy:
-    runs-on: nodejsapp-runner
+    runs-on: eela_runner
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
