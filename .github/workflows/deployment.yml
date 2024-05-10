@@ -1,0 +1,10 @@
+name: Node.js App Deploy
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: nodejsapp-runner
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
